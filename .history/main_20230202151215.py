@@ -8,6 +8,7 @@
 # The script then loops through the product details section and extracts the key-value pairs of information into a dictionary, where the keys are the product details and the values are their respective descriptions.
 # Finally, the extracted information is stored in a pandas DataFrame and saved to an Excel file named "product_info.xlsx".
 # Note: The script uses HTML tags and CSS selectors to locate the specific elements on the page. These selectors may not work if Amazon changes the structure of its product pages.
+#MTMAK9
 
 import requests
 from bs4 import BeautifulSoup
